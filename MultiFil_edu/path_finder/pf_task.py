@@ -6,8 +6,8 @@ from fireworks import explicit_serialize, FireTaskBase, FWAction
 from pymatgen.analysis.structure_analyzer import VoronoiCoordFinder
 from pymatgen.io.vaspio import Chgcar
 from pymatgen import Structure
-from PathFinder.generateGammaRun import VaspBulk
-from PathFinder.pathFinder import NEBPathfinder, ChgcarPotential
+from gamma_input_set import VaspBulk
+from path_finder import NEBPathfinder, ChgcarPotential
 from MultiFil_edu.settings.db_singleton import MyDB
 
 __author__ = 'Shaun Rong'
@@ -24,7 +24,7 @@ def load_class(mod, name):
 @explicit_serialize
 class WriteGammaInputTask(FireTaskBase):
     """
-    Write Vasp Gamma input set, using parameters settings in generateGammaRun.py
+    Write Vasp Gamma input set, using parameters settings in gamma_input_set.py
     """
     required_params = ["structure"]
 
