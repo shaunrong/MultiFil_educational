@@ -64,7 +64,7 @@ class MyDB(DBAccess):
                 host = confidential['MyDB']['host']
                 port = confidential['MyDB']['port']
                 user = confidential['MyDB']['user']
-                db = confidential['MyDB']['db']
+                db = confidential['MyDB']['db_scripts']
                 passwd = confidential['MyDB']['passwd']
                 cls._instance = MyDB(host=host, port=port, user=user, db=db, passwd=passwd)
         return cls._instance
@@ -81,7 +81,7 @@ class MPDB(DBAccess):
                 host = confidential['MPDB']['host']
                 port = confidential['MPDB']['port']
                 user = confidential['MPDB']['user']
-                db = confidential['MPDB']['db']
+                db = confidential['MPDB']['db_scripts']
                 passwd = confidential['MPDB']['passwd']
                 cls._instance = MyDB(host=host, port=port, user=user, db=db, passwd=passwd)
         return cls._instance
