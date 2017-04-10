@@ -1,0 +1,14 @@
+# Your own MongoDB database confidential
+MyDB:
+  host:
+  port:
+  user:
+  db:
+  passwd:
+# Materials Project database confidential, ask Miao Liu <miaoliu@lbl.gov> for confidential
+MPDB:
+  host:
+  port:
+  user:
+  db:
+  passwd:

@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: MultiFil-educational
+Version: 0.1
+Summary: Filter out promising diffusive cathode structures for MV batteries
+Home-page: UNKNOWN
+Author: Ziqin (Shaun) Rong
+Author-email: rongzq08@mit.edu
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: rogramming Language :: Python :: 2.7
+Classifier: Topic :: Scientific/Engineering :: Physics
